@@ -2,7 +2,6 @@
   "name": "serverless-graphql",
   "private": true,
   "scripts": {
-    "precommit": "lint-staged",
     "lint":
       "eslint app-backend/appsync/**/*.js app-backend/dynamodb/*.js app-backend/rest-api/*.js app-backend/rds/*.js app-client/**/src/**/*.js",
     "prettier":
